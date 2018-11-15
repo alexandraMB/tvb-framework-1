@@ -1,0 +1,56 @@
+.layout__card {
+  background: #fdfdfd;
+}
+
+.card__header {
+  /*max-height: var( --headerHeight );*/
+  max-height: 42px;
+  color: aquamarine;
+}
+
+:root {
+  --headerHeight: 42px;
+  --formHeight: 89px;
+}
+
+.card__content {
+  height: calc(100% - var(--headerHeight));
+}
+/*div{*/
+/*width: 60%*/
+/*}*/
+
+.mat-card{
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid ;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.mat-card-content {
+  padding: 15px;
+}
+.mat-card-header {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.mat-card-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+}
+.mat-card-title > a,
+.mat-card-title > small,
+.mat-card-title > .small,
+.mat-card-title > small > a,
+.mat-card-title > .small > a {
+  color: inherit;
+}
+
+#longi-viewer {
+  grid-column: 8 / -1;
+}
